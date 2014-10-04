@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfthread", "wpfthread\wpfthread.csproj", "{6720DA05-6B6B-4D13-A2D0-FC5CC8DEC9D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMVCController", "asynccontrollermvc\AsyncMVCController.csproj", "{42EBAB63-15A3-4274-91F6-7904F77678ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asyncawaitmvc4", "asyncawaitmvc4\asyncawaitmvc4.csproj", "{F2876CC9-7495-4963-B646-4193F9F99D4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6720DA05-6B6B-4D13-A2D0-FC5CC8DEC9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6720DA05-6B6B-4D13-A2D0-FC5CC8DEC9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6720DA05-6B6B-4D13-A2D0-FC5CC8DEC9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6720DA05-6B6B-4D13-A2D0-FC5CC8DEC9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EBAB63-15A3-4274-91F6-7904F77678ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EBAB63-15A3-4274-91F6-7904F77678ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EBAB63-15A3-4274-91F6-7904F77678ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EBAB63-15A3-4274-91F6-7904F77678ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2876CC9-7495-4963-B646-4193F9F99D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2876CC9-7495-4963-B646-4193F9F99D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2876CC9-7495-4963-B646-4193F9F99D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2876CC9-7495-4963-B646-4193F9F99D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
