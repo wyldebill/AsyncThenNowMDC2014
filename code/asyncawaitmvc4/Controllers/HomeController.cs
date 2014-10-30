@@ -25,11 +25,6 @@ namespace asyncawaitmvc4.Controllers
             Thread.Sleep(milliseconds);
         }
 
-        public void testme()
-        {
-            string await = "hello";
-
-        }
 
         #region simulate a long running IO operation
         
@@ -46,7 +41,6 @@ namespace asyncawaitmvc4.Controllers
 
         public async Task<ActionResult> Test()
         {
-            string await = "hello";
             Task<string> t = Task.Run(() => LongRunningIoMethod(2000));
             string msg = await t;
 
